@@ -22,3 +22,4 @@ os_gpg_key_pubkey_content: "Amazon Linux <amazon-linux@amazon.com> d832c631"
 
 # Centex config
 amzn2023cis_rule_1_2_4: false
+run_audit: false
