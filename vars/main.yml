@@ -22,5 +22,26 @@ os_gpg_key_pubkey_content: "Amazon Linux <amazon-linux@amazon.com> d832c631"
 
 # Centex config
 amzn2023cis_rule_1_2_4: false
-amzn2023cis_rule_6_2_10: false
+amzn2023cis_rule_6_2_10: false # mounts do not have option acl
 run_audit: false
+
+amzn2023cis_warning_banner: |
+    |-----------------------------------------------------------------|\n
+    | This system is for the use of authorized users only.            |\n
+    | Individuals using this computer system without authority, or in |\n
+    | excess of their authority, are subject to having all of their   |\n
+    | activities on this system monitored and recorded by system      |\n
+    | personnel.                                                      |\n
+    |                                                                 |\n
+    | In the course of monitoring individuals improperly using this   |\n
+    | system, or in the course of system maintenance, the activities  |\n
+    | of authorized users may also be monitored.                      |\n
+    |                                                                 |\n
+    | Anyone using this system expressly consents to such monitoring  |\n
+    | and is advised that if such monitoring reveals possible         |\n
+    | evidence of criminal activity, system personnel may provide the |\n
+    | evidence of such monitoring to law enforcement officials.       |\n
+    |-----------------------------------------------------------------|\n
+
+
+
